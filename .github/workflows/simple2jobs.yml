@@ -7,17 +7,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
-        run: echo "Hello world"
-      - name: multiline script
+        run: echo "hej med dig"
+      - name: multi line script
         run: |
           node -v
           npm -v
-
-  python-command:
-    runs-on: ubuntu-latest
-    steps:
-      - name: python commands
-        run: |
-          import platform
-          print(platform.processor())
-        shell: python
+          mvn -v
+          
+          - name: python-command
+          run: |
+            import platform
+            print(platform.processor())
+          shell: python
