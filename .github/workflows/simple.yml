@@ -1,4 +1,4 @@
-name: Shell Commandsgit
+name: Shell Commands
 
 on: [push]
 
